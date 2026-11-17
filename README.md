@@ -6,7 +6,7 @@ A Flask API for the ADS-B flight data in the MySQL table `class_datapoints`.
 - `test-client.py`: test client that calls every endpoint
 
 Every request needs `key=123`. Keys are checked in the `rovaimt_auth` table, and every request is logged in the `rovaimt_log` table.
-
+![Log table](log_screenshot.png)
 Base URL: `http://127.0.0.1:5000`
 
 ## Endpoints
